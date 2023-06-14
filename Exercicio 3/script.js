@@ -17,14 +17,14 @@ function showResult(frase) {
 		var kick = parseInt(prompt("Já pensei. Qual você acha que é?"));
 
 		if(kick == thoughtNumber) {
-			showResult("Uau! Você acertou, pois eu pensei no " + numeroPensado);
+			showResult("Uau! Você acertou, pois eu pensei no " + thoughtNumber);
 			break;
 
 		} else {
-			showResult("Você errou! Eu tinha pensado no " + numeroPensado);
+			showResult("Você errou! Eu tinha pensado no " + thoughtNumber);
 		}
 
-		tentativas++
+		attempts++
 	}
 	
 	showResult("FIM!");
