@@ -19,7 +19,6 @@ function calculateWeightedAverage(params) {
     let average = (numberFirst*weightOne + numberSecond*weightTwo + numberThird*weightThree) / (weightOne + weightTwo + weightThree);
 
     showResult("A média ponderada é: " + average);
-    
 }
 
 calculateWeightedAverage();
